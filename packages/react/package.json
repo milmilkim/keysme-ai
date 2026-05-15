@@ -1,0 +1,53 @@
+{
+  "name": "@keysme-ai/react",
+  "version": "0.1.0",
+  "description": "Headless React hooks for @keysme-ai/core (useSyncExternalStore-based).",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milmilkim/keysme-ai.git"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "llm",
+    "byok",
+    "react",
+    "hooks",
+    "api-key"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "@keysme-ai/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@keysme-ai/core": "workspace:*",
+    "@testing-library/react": "^16.0.0",
+    "@types/react": "^18.3.0",
+    "jsdom": "^25.0.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "typescript": "^5.6.0",
+    "tsup": "^8.3.0",
+    "vitest": "^2.1.0"
+  }
+}

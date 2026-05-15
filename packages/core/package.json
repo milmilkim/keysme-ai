@@ -1,0 +1,53 @@
+{
+  "name": "@keysme-ai/core",
+  "version": "0.1.0",
+  "description": "BYOK LLM settings registry — providers, presets, protocols, encrypted export. No LLM calls.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milmilkim/keysme-ai.git"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "llm",
+    "byok",
+    "api-key",
+    "openai",
+    "anthropic",
+    "gemini",
+    "settings"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./utils": {
+      "import": "./dist/utils/index.js",
+      "types": "./dist/utils/index.d.ts"
+    },
+    "./adapters": {
+      "import": "./dist/adapters/index.js",
+      "types": "./dist/adapters/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "tsup": "^8.3.0",
+    "vitest": "^2.1.0"
+  }
+}

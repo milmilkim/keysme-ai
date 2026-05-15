@@ -1,0 +1,19 @@
+{
+  "name": "keysme-ai",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "biome check .",
+    "format": "biome format . --write",
+    "version": "changeset version && pnpm install --lockfile-only",
+    "release": "pnpm -r test && pnpm -r build && pnpm publish -r --access public"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "@changesets/cli": "^2.27.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
