@@ -2,7 +2,7 @@
 
 **한국어** | [English](./README.en.md)
 
-**v0.1.0** · MIT
+**v0.1.1** · MIT
 
 BYOK (Bring Your Own Key) LLM 설정 registry + headless React 훅.
 
@@ -184,8 +184,8 @@ export된 타입과 JSDoc이 곧 스펙입니다. AI 코딩 도구는 `.d.ts`에
 
 | 패키지 | 버전 | 설명 |
 |---|---|---|
-| `@keysme-ai/core` | 0.1.0 | Store, 타입, 프로토콜, 암호화 export, 저장소 어댑터 |
-| `@keysme-ai/react` | 0.1.0 | Headless React 훅 (useSyncExternalStore 기반) |
+| `@keysme-ai/core` | 0.1.1 | Store, 타입, 프로토콜, 암호화 export, 저장소 어댑터 |
+| `@keysme-ai/react` | 0.1.1 | Headless React 훅 (useSyncExternalStore 기반) |
 
 ## 라이선스
 

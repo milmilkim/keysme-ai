@@ -1,6 +1,6 @@
 {
   "name": "@keysme-ai/core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "BYOK LLM settings registry — providers, presets, protocols, encrypted export. No LLM calls.",
   "license": "MIT",
   "repository": {

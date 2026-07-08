@@ -2,7 +2,7 @@
 
 [한국어](./README.md) | **English**
 
-**v0.1.0** · MIT
+**v0.1.1** · MIT
 
 BYOK (Bring Your Own Key) LLM settings registry + headless React hooks.
 
@@ -184,8 +184,8 @@ The exported types and JSDoc are the spec. AI coding tools pick them up from `.d
 
 | Package | Version | Description |
 |---|---|---|
-| `@keysme-ai/core` | 0.1.0 | Store, types, protocols, encrypted export, storage adapters |
-| `@keysme-ai/react` | 0.1.0 | Headless React hooks (useSyncExternalStore-based) |
+| `@keysme-ai/core` | 0.1.1 | Store, types, protocols, encrypted export, storage adapters |
+| `@keysme-ai/react` | 0.1.1 | Headless React hooks (useSyncExternalStore-based) |
 
 ## License
 
